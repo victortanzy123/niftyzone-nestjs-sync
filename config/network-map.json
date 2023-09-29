@@ -1,0 +1,22 @@
+{
+  "mainnetChainId": 56,
+  "rpc": {
+    "1": "https://rpc.ankr.com/eth",
+    "43114": "https://api.avax.network/ext/bc/C/rpc",
+    "56": "https://bscrpc.com"
+  },
+  "chainId": {
+    "ethereum": "1",
+    "avalanche": "43114",
+    "bsc": "56"
+  },
+  "networks": [
+    {
+      "chainId": 56,
+      "network": "bsc",
+      "name": "Binance Smart Chain",
+      "currency": "BNB",
+      "subgraph": "https://api.thegraph.com/subgraphs/name/victortanzy123/niftyzone"
+    }
+  ]
+}
